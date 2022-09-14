@@ -1,0 +1,21 @@
+Base damage<br>
+<input type="number" [(ngModel)]="baseDamage"><br>
+<br>
+<input type="number" [(ngModel)]="numWatches"> Watches<br>
+<input type="number" [(ngModel)]="numShapedGlass"> Shaped Glass<br>
+<input type="number" [(ngModel)]="numIrradiantPearls"> Irradiant Pearls<br>
+<br>
+<input type="checkbox" [(ngModel)]="isCrit"> Shot is Crit<br>
+<input type="number" [(ngModel)]="numLaserScopes"> Laser Scopes<br>
+<br>
+<input type="checkbox" [(ngModel)]="isEnemyAbove90"> Enemy is above 90%<br>
+<input type="number" [(ngModel)]="numCrowbars"> Crowbars<br>
+<br>
+<input type="checkbox" [(ngModel)]="isEnemyBoss"> Enemy is Boss<br>
+<input type="number" [(ngModel)]="numArmorPiercingRounds"> Armor Piercing Rounds<br>
+<br>
+<input type="checkbox" [(ngModel)]="hasEnemy4Debuffs"> Enemy has >= 4 debuffs<br>
+<input type="number" [(ngModel)]="numDeathMarks"> Death Marks<br>
+<br>
+Result (multiplier):<br>
+{{damageMultiplier}}<br>
