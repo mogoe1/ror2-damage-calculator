@@ -1,5 +1,7 @@
-name: learn-github-actions
-on: [push]
+name: build-and-deply-to-gh-pages
+on: push
+  branches:
+   - master
 jobs:
   build:
     runs-on: ubuntu-latest
